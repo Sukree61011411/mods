@@ -123,7 +123,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR,"static"),
     '/mods/static/',
 )
-STATIC_ROOT = os.path.join(BASE_DIR , 'modulation/static')
+STATIC_ROOT = os.path.join(BASE_DIR , 'static')
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
